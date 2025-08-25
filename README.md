@@ -58,7 +58,7 @@ cp .env.example .env
 
 Run the script:
 ```bash
-python main.py
+python tweet_spotify_favs.py
 ```
 
 On first run, you'll be redirected to Spotify for authentication. After authorizing, the script will:
@@ -72,12 +72,12 @@ On first run, you'll be redirected to Spotify for authentication. After authoriz
 To run automatically, set up a cron job:
 ```bash
 # Run every hour
-0 * * * * cd /path/to/tweet-spotify-favs && python main.py
+0 * * * * cd /path/to/tweet-spotify-favs && python tweet_spotify_favs.py
 ```
 
 ## Files
 
-- `main.py` - Main script
+- `tweet_spotify_favs.py` - Main script
 - `favourite.json` - Stores previously processed tracks
 - `.env` - Your API credentials (not tracked in git)
 - `.env.example` - Template for environment variables
