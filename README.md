@@ -51,7 +51,7 @@ cp .env.example .env
 ### Spotify API Setup
 1. Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
 2. Create a new app
-3. Add `http://localhost:8888/callback` as redirect URI
+3. Add `http://example.com` as redirect URI
 4. Copy Client ID and Client Secret to `.env`
 
 ## Usage
