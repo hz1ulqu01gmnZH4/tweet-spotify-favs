@@ -71,8 +71,8 @@ On first run, you'll be redirected to Spotify for authentication. After authoriz
 
 To run automatically, set up a cron job:
 ```bash
-# Run every hour
-0 * * * * cd /path/to/tweet-spotify-favs && python tweet_spotify_favs.py
+# Run once daily at midnight
+0 0 * * * cd /path/to/tweet-spotify-favs && python tweet_spotify_favs.py
 ```
 
 ## Files
